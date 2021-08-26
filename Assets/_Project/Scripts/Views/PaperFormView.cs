@@ -1,9 +1,12 @@
 using TMPro;
 using UnityEngine;
 
-public class PaperFormView : MonoBehaviour
+namespace Pixel_Curio.SSJ21
 {
-    public TextMeshProUGUI FormName;
-    public TextMeshProUGUI BodyText;
-    public TMP_InputField FormInput;
+    public class PaperFormView : MonoBehaviour
+    {
+        public TextMeshProUGUI FormName;
+        public TextMeshProUGUI BodyText;
+        public TMP_InputField FormInput;
+    }
 }
